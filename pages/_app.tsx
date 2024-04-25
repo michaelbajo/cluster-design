@@ -9,5 +9,5 @@ export default function App({ Component, pageProps }: AppProps) {
       TempoDevtools.init();
     }
   }, []);
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} className="flex justify-end" />;
 }
